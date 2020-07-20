@@ -1,0 +1,16 @@
+archivioAutoUsate
+
+Colonne:
+
+Id: numero - INT - PRIM KEY (AUTO_INCREMENT - UNIQUE)
+Marca: stringa - VARCHAR(20) - NOTNULL
+Modello: stringa - VARCHAR(20) - NOTNULL
+Prezzo: numero - FLOAT(10,2) - NOTNULL
+Cilindrata: numero - SMALLINT - NOTNULL
+Anno: numero - YEAR - NOTNULL
+Chilometraggio: numero - MEDIUMINT - NOTNULL
+Colore: stringa - VARCHAR(30) - NOTNULL
+Tipologia: stringa - VARCHAR(30) - NOTNULL
+Nazionalità: stringa - VARCHAR(30) - NOTNULL
+Targa: stringa - VARCHAR(20) - NOTNULL
+Descrizione: stringa - TEXT
